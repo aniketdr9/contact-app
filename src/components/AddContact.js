@@ -45,6 +45,16 @@ class AddContact extends React.Component {
               onChange={(e) => this.setState({ email: e.target.value })}
             />
           </div>
+          <div className="field">
+            <label>Phone</label>
+            <input
+              type="number"
+              name="mobile"
+              placeholder="Enter Mobile Number"
+              value={this.state.phone}
+              onChange={(e) => this.setState({ email: e.target.value })}
+            />
+          </div>
           <button className="ui button blue">Add</button>
         </form>
       </div>
